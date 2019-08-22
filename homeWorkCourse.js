@@ -80,7 +80,7 @@ chooseOptExpenses: function(){
     
     }
  };
-for (let prop in appData){
+for (let prop in appData){ //перечисление свойств
     console.log("Наша программа включает в себя данные: " + prop);
 }
  
