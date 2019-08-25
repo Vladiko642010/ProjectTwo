@@ -74,14 +74,14 @@ chooseOptExpenses: function(){
         
     appData.income.sort();
   
-    appData.income.forEach(function(item){
-        alert(`Способы доп. заработка: ${item}`);
+    appData.income.forEach(function(itemmassive, i){
+        alert("Способы доп. заработка:" + (i+1) +" - " + itemmassive);
       });
     
     }
  };
-for (let prop in appData){ //перечисление свойств
-    console.log("Наша программа включает в себя данные: " + prop);
+for (let key in appData){ //перечисление свойств
+    console.log("Наша программа включает в себя данные: " + key + " - " + appData[key]);
 }
  
     
