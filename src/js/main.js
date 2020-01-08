@@ -116,7 +116,7 @@ chebox.addEventListener('click', function(){//галочка накоплени�
     } 
 });
 
-ssum.addEventListener('input', function(){
+ssum.addEventListener('input', function(){//ввод и расчет суммы накоплений
     if (appData.savings == true){
         let sum = +ssum.value;
         // percent = +choper.value;
@@ -129,7 +129,7 @@ ssum.addEventListener('input', function(){
     }
 });
  
-choper.addEventListener('input', function(){
+choper.addEventListener('input', function(){//ввод процентов и расчет суммы накоплений
     if (appData.savings == true) {
         let sum = +ssum.value,
         percent = +choper.value;
